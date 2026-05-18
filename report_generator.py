@@ -25,7 +25,7 @@ def create_report(name, backend, frontend, design):
         "Backend": backend,
         "Frontend": frontend,
         "Design": design,
-        "average": int(avg) if avg.is_integer() else round(avg, 2),
+        "average": avg,
         "grade": grade,
     }
 
